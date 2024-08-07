@@ -1,0 +1,14 @@
+.banner{
+    padding-top: 10rem;
+    .container {
+        background-image: url("../img/banner.webp");
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    @include mediaQuery($break-md) {
+        padding-top: 18rem;
+    }
+}
